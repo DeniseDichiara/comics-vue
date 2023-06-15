@@ -34,6 +34,7 @@ export default {
         list-style: none;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
 
     main-flex{
