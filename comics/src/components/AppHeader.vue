@@ -2,7 +2,7 @@
     <div>
         <h1>App Header</h1>
         <nav>
-            <img src="" alt="logo">
+            <img src="dc-logo.png" alt="logo">
             <ul>
                 <li>CHARACTERS</li>
                 <li>COMICS</li>
