@@ -1,7 +1,8 @@
 <template>
     <div>
         <h1>App Header</h1>
-        <div>
+        <nav>
+            <img src="" alt="logo">
             <ul>
                 <li>CHARACTERS</li>
                 <li>COMICS</li>
@@ -14,7 +15,7 @@
                 <li>NEWS</li>
                 <li>SHOP</li>
             </ul>
-        </div>
+        </nav>
     </div>
 </template>
 
@@ -30,6 +31,12 @@ export default {
 </script>
 
 <style>
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
     ul{
         list-style: none;
         display: flex;
@@ -37,8 +44,9 @@ export default {
         justify-content: space-between;
     }
 
-    main-flex{
-        display: flex;
-        flex-direction: row;
+    li{
+        padding-right: 1rem;
     }
+
+
 </style>
