@@ -17,11 +17,13 @@ export default {
 
 <style>
     main{
-        margin: 0;
-        padding: 0;
         box-sizing: border-box;
         background-color: black;
         color: white;
+        height: 8rem;
+        display: flex;
+        align-items: center;
+        padding-left: 10rem;
     }
 
 </style>
