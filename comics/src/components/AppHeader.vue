@@ -1,6 +1,5 @@
 <template>
-    <div>
-        <h1>App Header</h1>
+    <header>
         <nav>
             <img src="dc-logo.png" alt="logo">
             <ul>
@@ -16,7 +15,7 @@
                 <li>SHOP</li>
             </ul>
         </nav>
-    </div>
+    </header>
 </template>
 
 <script>
@@ -31,10 +30,19 @@ export default {
 </script>
 
 <style>
+    header{
+        padding-top: 2rem;
+    }
+
     nav{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    img{
+        width: 4rem;
+        height: 4rem;
     }
 
     ul{
