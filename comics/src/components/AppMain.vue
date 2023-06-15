@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <h1>App Main</h1>
-    </div>
+    <main>
+        <h2>  &RightArrow; Content goes here  &LeftArrow;  </h2>
+    </main>
 </template>
 
 <script>
@@ -15,6 +15,13 @@ export default {
 }
 </script>
 
-<style lang="">
-    
+<style>
+    main{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: black;
+        color: white;
+    }
+
 </style>
