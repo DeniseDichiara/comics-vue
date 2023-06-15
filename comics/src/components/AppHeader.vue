@@ -1,6 +1,20 @@
 <template>
     <div>
-        <h1>App footer</h1>
+        <h1>App Header</h1>
+        <div>
+            <ul>
+                <li>CHARACTERS</li>
+                <li>COMICS</li>
+                <li>MOVIES</li>
+                <li>TV</li>
+                <li>GAMES</li>
+                <li>COLLECTIBLES</li>
+                <li>VIDEOS</li>
+                <li>FANS</li>
+                <li>NEWS</li>
+                <li>SHOP</li>
+            </ul>
+        </div>
     </div>
 </template>
 
@@ -15,6 +29,15 @@ export default {
 }
 </script>
 
-<style lang="">
-    
+<style>
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+    main-flex{
+        display: flex;
+        flex-direction: row;
+    }
 </style>
